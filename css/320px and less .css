@@ -1,0 +1,170 @@
+@media all and (max-width: 320px){
+	.world {
+		overflow-x:  hidden;
+	}
+	.item {
+		width: 100%;
+		height: 200px;
+		background: url(../img/tie-690084_1280.jpg) 0 0/100% no-repeat;
+		text-shadow: 
+		0 0 10px #000,
+		0 0 14px #000;
+	}
+	.item_home{
+		display: flex;
+		width: 100%;
+		height: 50px;
+	}
+	.item_logo {
+		width: 25%;
+		max-height: 50px; 
+		display: flex;
+	}
+	.item_logo>img{
+		max-height: 50px; 
+		padding-left: 20px;	
+	}
+	.item_categories {
+		width: 75%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+	.item_categories_one {
+		padding: 15px;
+		font-size: 16px;
+		color: #fff;
+		font-family: 'Roboto', sans-serif;
+	}
+	.item_about {
+		height: 100px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.item_about_item {
+		font-size: 16px;
+		color: #fff;
+		font-family: 'Noto Sans JP', sans-serif;
+		padding: 10px;
+	}
+	.item_about_text {
+		color: #fff;
+		font-size: 14px;
+		width: 290px;
+		text-align: center;
+		font-family: 'New Tegomin', serif;
+	}
+	.why_our {
+		width: 99%;
+		display: flex;
+		flex-direction: column;
+	}
+	.why_our_one {
+		width: 100%;
+		min-height: 220px;
+		border: 5px solid #000;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 16px;
+		
+	}
+	.why_our_one_text{
+		text-align: center;
+		width: 300px;
+		font-family: 'Roboto Slab', serif;
+	}
+	.we {
+		display: flex;
+		width: 100%;
+		height: 200px;
+		background: url(../img/shoes-1897708.jpg) 0 0/100% no-repeat;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		flex-direction: column;
+		font-family: 'Roboto', sans-serif;
+		text-shadow: 
+		0 0 10px #000,
+		0 0 14px #000;
+	}
+	.we_item {
+		font-size: 16px;
+		color: #fff;
+		padding: 10px
+	}
+	.we_text {
+		font-size: 14px;
+		color: #fff;
+		width: 300px;
+	}
+	.contacts {
+		display: flex;
+		width: 100%;
+		flex-wrap: wrap;
+		box-shadow: 
+		0 -3px 10px #fff,
+		0 -4px 14px #fff,
+		0 -5px 20px #fff,
+		0 -6px 30px #fff;
+	}
+	.contacts_one {
+		display: flex;
+		flex-direction: column;
+		width: 50%;
+		height: 250px;
+		justify-content: space-around;
+		align-items: center;
+		text-align: center;
+		text-decoration: none;
+	}
+	.contacts_one>img{
+		max-width: 120px;
+	}
+	.contacts_one_text {
+		display: flex;
+		font-size: 20px;
+		flex-basis: 100px;
+		margin-top: auto;
+		font-family: 'Bebas Neue', cursive;
+		color: #000;
+	}
+	.footer {
+		display: flex;
+		width: 100%;
+		height: 140px;
+		background: #262626FF;
+		box-shadow: 
+		0 -5px 10px #000,
+		0 -7px 14px #000,
+		0 -9px 24px #3A3A3AFF,
+		0 -12px 34px #7A7A7AFF;
+	}
+	.footer_categories {
+		width: 75%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: #fff;
+		font-size: 18px;
+	}
+	.footer_categories_one {
+		font-family:  'Fredoka One', cursive;
+		padding: 0 20px;
+	}
+	.footer_logo {
+		width: 25%;
+		display: flex;
+		align-items: center;
+		padding-left: 50px;
+	}
+	.footer_logo>img{
+		max-width: 45px;
+	
+	}
+
+}
